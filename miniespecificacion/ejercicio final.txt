@@ -63,13 +63,13 @@ En la carpeta diagramas: seis diagramas usando DIA-UML; uno por cada procedimien
 6.      salida, x(200)[{a-z},{A-Z},{0-100},{BS}]
 7.      contador,i [0-n]
 8.      Mientras(bandera)entonces
-9.          contador <-- contador + 1
-10.            Escribir " ingresa 1 para crear una cuenta de Facebook \n"
-11.            Escribir " ingresa 2 para crear una cuenta de Whatsapp \n"
-12.            Escribir " ingresa 3 para crear una cuenta de Telegram \n"
-13.            Escribir " ingresa 4 para crear una cuenta de Signal \n"
-14.            Escribir " ingresa 5 para crear una cuenta de Instagram \n"
-15.            Escribir " ingresa 6 para crear una csuenta de Flickr \n"
+9.             Escribir " ingresa 1 para crear una cuenta de Facebook \n"
+10.            Escribir " ingresa 2 para crear una cuenta de Twitter \n"
+11.            Escribir " ingresa 3 para crear una cuenta de Whatsapp \n"
+12.            Escribir " ingresa 4 para crear una cuenta de Telegram \n"
+13.            Escribir " ingresa 5 para crear una cuenta de Signal \n"
+14.            Escribir " ingresa 6 para crear una cuenta de Instagram \n"
+15.            Escribir " ingresa 7 para crear una csuenta de Flickr \n"
 16.            leer opcion 
 17.
 18.  Dependiendo_De (opcion)
@@ -114,7 +114,7 @@ En la carpeta diagramas: seis diagramas usando DIA-UML; uno por cada procedimien
 57.     ciudad, x(90)[{a-z}, {A-Z}, {BS}]
 58.     pais, x(90)[{a-z}, {A-Z}, {BS}]
 59.     correo, x(50)[{a-z}, {A-Z}, {0-9}, {@ _ .}]
-60.     Escribir "PUT"
+60.     Escribir "usted a escogido la opcion crear facebook"
 61.     Escribir "Ingresar su nombre : "
 62.     Leer nombreUsuario
 63.     Escribir "Ingresar su edad : "
